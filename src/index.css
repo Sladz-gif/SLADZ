@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height:100vh;
+    background:#F2E6E8;
+    color: #191D23 ;
+    font-family: 'Times New Roman', Times, serif;
+}

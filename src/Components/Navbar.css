@@ -1,0 +1,98 @@
+.position{
+    position: fixed;
+    width: 100%;
+}
+
+
+.navbar{
+        display: flex;
+        align-items: center ;
+        justify-content: space-between;
+        padding: 10px;
+        margin:  0px 100px ;
+    background:#F2E6E8;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#191D23;
+}
+
+.logo{
+   font-style: italic;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:20%;
+    font-size: 20px;
+
+
+
+}
+.nav-connect{
+    padding: 10px 20px;
+    border-radius:5px;
+    background: #57707A;
+    font-size: 20px ;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #DEDCDC;
+    border: 1px solid;
+
+
+}
+
+.nav-connect a{
+    text-decoration: none;
+    color:whitesmoke ;
+}
+
+
+.nav-connect:hover {
+    transform: scale(1.05);
+
+
+}
+
+.nav-home{
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-home:hover{
+    transform: scale(1.05);
+}
+
+.nav-about{
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-about:hover{
+    transform: scale(1.05);
+}
+
+
+.nav-food{
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-food:hover{
+    transform: scale(1.05);
+}
+
+.nav-sports{
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-sports:hover{
+    transform: scale(1.05);
+}

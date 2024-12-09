@@ -1,0 +1,49 @@
+
+.connect {
+    margin: 0px 100px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+}
+
+.connect a {
+    text-decoration: none;
+    color: #191D23;
+}
+
+.connect-logo {
+    font-style: italic;
+}
+
+.text1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .connect {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center align items */
+        padding: 20px; /* Adjust padding for smaller screens */
+        margin: 0 20px; /* Reduce margin */
+        text-align: center; /* Center text for better readability */
+    }
+
+    .connect a {
+        font-size: 18px; /* Adjust font size for links */
+        margin-bottom: 10px; /* Add space between links if stacked */
+    }
+
+    .connect-logo {
+        font-size: 24px; /* Adjust logo font size for smaller screens */
+        margin-bottom: 10px; /* Add space below the logo */
+    }
+
+    .text1 {
+        font-size: 20px; /* Adjust font size for text1 */
+        margin-top: 10px; /* Add margin for spacing */
+    }
+}

@@ -1,0 +1,101 @@
+.hero-image {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin: 100px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(to right, #FF1493, #00BFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect,
+.hero-services {
+    padding: 8px 40px;
+    border: 1px solid;
+    border-radius: 7px;
+    background: #57707A;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #DEDCDC;
+}
+
+.hero-connect:hover,
+.hero-services:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero-image {
+        width: 200px; /* Smaller size for mobile */
+        height: 200px; /* Smaller size for mobile */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Reduce font size for mobile */
+        width: 90%; /* Increase width for better fit */
+        margin-top: 20px; /* Adjust margin */
+        margin-bottom: 10px; /* Add bottom margin */
+    }
+
+    .hero p {
+        width: 90%; /* Increase width for better fit on smaller screens */
+        font-size: 18px; /* Reduce font size for mobile */
+        line-height: 28px; /* Adjust line height */
+        margin-bottom: 20px; /* Add bottom margin */
+    }
+
+    .hero-action {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        gap: 15px; /* Reduce gap between buttons */
+        align-items: center; /* Center align buttons */
+        margin-bottom: 30px; /* Adjust bottom margin */
+    }
+
+    .hero-connect,
+    .hero-services {
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+        font-size: 18px; /* Reduce font size for buttons */
+        width: auto; /* Allow buttons to auto size */
+        text-align: center; /* Center text in buttons */
+    }
+}

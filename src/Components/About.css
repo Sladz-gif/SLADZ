@@ -1,0 +1,84 @@
+.about {
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+     margin: 2%;
+}
+
+.about-content {
+    flex: 1; 
+    margin-right: 20px; 
+    margin:  10px 100px ;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow:0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: #F0F0F0;
+}
+
+.about-image {
+    max-width: 300px; 
+    margin-left: auto; 
+    margin:  0px 100px ;
+   
+    
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow:0px 4px 15px rgba(0, 0, 0, 0.2);
+}.about {
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    margin: 2%;
+}
+
+.about-content {
+    flex: 1; 
+    margin-right: 20px; 
+    margin: 10px 100px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: #F0F0F0;
+}
+
+.about-image {
+    max-width: 300px; 
+    margin-left: auto; 
+    margin: 0px 100px;
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+        padding: 5%; /* Adjust padding for smaller screens */
+    }
+
+    .about-content {
+        margin-right: 0; /* Remove right margin */
+        margin-left: auto; /* Center content */
+        margin-right: auto; /* Center content */
+        margin-top: 20px; /* Add top margin for spacing */
+        padding: 20px; /* Reduce padding for smaller screens */
+        width: calc(100% - 40px); /* Make content responsive */
+    }
+
+    .about-image {
+        max-width: 100%; /* Allow image to take full width on small screens */
+        margin-left: auto; /* Center image horizontally */
+        margin-right: auto; /* Center image horizontally */
+        margin-top: 20px; /* Add top margin for spacing */
+    }
+}

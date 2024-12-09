@@ -1,0 +1,58 @@
+
+.name {
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.food {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.food-card {
+    background-color: #F0F0F0;
+    border-radius: 5%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Fixed width for larger screens */
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.food-card:hover {
+    transform: scale(1.05);
+}
+
+.food img {
+    border-radius: 5%;
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .name {
+        font-size: 36px; /* Reduce font size for smaller screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .food {
+        flex-direction: column; /* Stack food cards vertically on smaller screens */
+        margin: 20px; /* Reduce margin */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Center content */
+    }
+
+    .food-card {
+        width: 90%; /* Make food cards take up more width on smaller screens */
+        max-width: 300px; /* Set a maximum width for food cards */
+        margin-bottom: 20px; /* Add space between cards */
+    }
+}
