@@ -42,7 +42,8 @@
     padding: 50px;
     border: 1px solid #ccc;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    background: #F0F0F0;
+    background: #1A1A1A;
+    border-radius: 5%;
 }
 
 .about-image {

@@ -50,11 +50,11 @@
     padding: 8px 40px;
     border: 1px solid;
     border-radius: 7px;
-    background: #57707A;
+    background: #0FF0FC;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
-    color: #DEDCDC;
+    color: #0D0D0D
 }
 
 .hero-connect:hover,

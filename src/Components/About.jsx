@@ -1,5 +1,5 @@
 import './About.css'
-import about_pic from './/about-pic.jpeg';
+import about_pic from './/about-pic.jpg';
 function About (){
     
         return (

@@ -10,12 +10,12 @@
         justify-content: space-between;
         padding: 10px;
         margin:  0px 100px ;
-    background:#F2E6E8;
+    background:#0D0D0D;
 }
 
 .navbar a{
     text-decoration: none;
-    color:#191D23;
+    color:#808080;
 }
 
 .logo{
@@ -34,11 +34,11 @@
 .nav-connect{
     padding: 10px 20px;
     border-radius:5px;
-    background: #57707A;
+    background: #0FF0FC;
     font-size: 20px ;
     cursor: pointer;
     transition: 0.5s;
-    color: #DEDCDC;
+    color: #0D0D0D;
     border: 1px solid;
 
 
@@ -46,7 +46,7 @@
 
 .nav-connect a{
     text-decoration: none;
-    color:whitesmoke ;
+    color:#0D0D0D ;
 }
 
 
