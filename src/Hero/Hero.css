@@ -8,11 +8,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 20px;
 }
 
 .hero img {
-    margin: 100px;
+    margin: 70px;
 }
 
 .hero h1 {
